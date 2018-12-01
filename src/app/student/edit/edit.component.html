@@ -1,0 +1,17 @@
+<form [formGroup]="studentForm">
+  <div>
+    <input type="text" placeholder="fname" formControlName="fname">
+
+  </div>
+  <div>
+      <input type="text" placeholder="lname" formControlName="lname">
+    </div>
+    <div>
+        <input type="text" placeholder="age" formControlName="age">
+    </div>
+    <div>
+          <input type="text" placeholder="address" formControlName="address">
+    </div>
+    <button type="submit" (click)="updatestudent()">SUBMIT</button>
+</form>
+

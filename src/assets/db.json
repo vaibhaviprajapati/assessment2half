@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "id": 2,
+      "fname": "Yamini",
+      "lname": "gala",
+      "age": "22",
+      "address": "valsad"
+    },
+    {
+      "id": 3,
+      "fname": "sonal",
+      "lname": "prajapati",
+      "age": 23,
+      "address": "valsad"
+    },
+    {
+      "id": 4,
+      "fname": "Akshita",
+      "lname": "kapdia",
+      "age": 23,
+      "address": "valsad"
+    }
+  ]
+}

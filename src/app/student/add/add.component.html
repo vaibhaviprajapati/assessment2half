@@ -1,0 +1,15 @@
+<form [formGroup]="studentForm">
+  <div>
+    <input type="text" placeholder="first name" formControlName="fname" id="fname">
+  </div>
+  <div>
+      <input type="text" placeholder="last name" formControlName="lname">
+    </div>
+    <div>
+        <input type="text"  placeholder="enter age" formControlName="age">
+    </div>
+    <div>
+          <input type="text" placeholder="enter address" formControlName="address">
+    </div>
+    <button type="submit" (click)="addStudent(studentForm.value)">SUBMIT</button>
+</form>
