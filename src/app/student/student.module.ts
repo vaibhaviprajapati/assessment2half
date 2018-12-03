@@ -6,15 +6,15 @@ import { ViewComponent } from './view/view.component';
 import { EditComponent } from './edit/edit.component';
 import { StudentService } from './student.service';
 import {ReactiveFormsModule} from '@angular/forms'
-import { TableComponent } from './view/table/table.component';
-
+import {TableModule} from 'vaibhavi'
 @NgModule({
   imports: [
     CommonModule,
     StudentRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TableModule
   ],
-  declarations: [AddComponent, ViewComponent, EditComponent, TableComponent],
+  declarations: [AddComponent, ViewComponent, EditComponent],
   providers: [StudentService]
 })
 export class StudentModule { }

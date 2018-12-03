@@ -32,9 +32,7 @@ export class AddComponent implements OnInit {
       address: ['',[Validators.required]]
     });
   }
-  /**
-   * a
-   */
+
   public addStudent(student: Student):void
   {
     this.studentService.addStudent(this.studentForm.value).subscribe(
